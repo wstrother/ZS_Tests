@@ -3,6 +3,8 @@ import test_events
 import test_cfg
 import test_entities
 import test_context
+import test_input
+import test_controller
 
 
 def make_suite():
@@ -13,6 +15,8 @@ def make_suite():
     suite.addTests(loader.loadTestsFromModule(test_cfg))
     suite.addTests(loader.loadTestsFromModule(test_entities))
     suite.addTests(loader.loadTestsFromModule(test_context))
+    suite.addTests(loader.loadTestsFromModule(test_input))
+    suite.addTests(loader.loadTestsFromModule(test_controller))
 
     return suite
 

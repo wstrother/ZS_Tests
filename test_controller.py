@@ -56,7 +56,7 @@ class TestController(TestCase):
         )
 
     def test_button(self):
-        button = cont.Button("test button", self.controller_1)
+        button = cont.Button("test button")
         button.init_delay = 5
         button.held_delay = 2
         mapping = Mock(name="ButtonMapping")
@@ -101,8 +101,42 @@ class TestController(TestCase):
                     button.negative_edge()
                 )
 
+    def test_trigger(self):
+        trigger = cont.Trigger("test trigger")
+        trigger.dead_zone = .95
+        mapping = Mock(name="TriggerMapping")
+
+        self.controller_1.add_device(
+            trigger, mapping
+        )
+
+        self.assertEqual(
+            trigger.get_value(), 0.0
+        )
+
+        inputs = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+        frame_num = 0
+        for i in inputs:
+            frame_num += 1
+            mapping.get_value.return_value = i
+            self.controller_1.update()
+
+            self.assertEqual(
+                trigger.get_displacement(), i
+            )
+
+            if frame_num < 10:
+                self.assertTrue(
+                    not trigger.check()
+                )
+
+            if frame_num == 10:
+                self.assertTrue(
+                    trigger.check
+                )
+
     def test_dpad(self):
-        dpad = cont.Dpad("test dpad", self.controller_1)
+        dpad = cont.Dpad("test dpad")
         mappings = [
             Mock(name="ButtonMapping"),
             Mock(name="ButtonMapping"),
@@ -137,4 +171,55 @@ class TestController(TestCase):
             else:
                 self.assertEqual(
                     dpad.get_direction(), (0, 0)
+                )
+
+    def test_thumb_stick(self):
+        stick = cont.ThumbStick("test stick")
+        stick.dead_zone = 0.25
+        mappings = [
+            Mock(name="AxisMapping"),
+            Mock(name="AxisMapping"),
+        ]
+
+        self.controller_1.add_device(
+            stick, mappings
+        )
+
+        self.assertEqual(
+            stick.get_value(), (0.0, 0.0)
+        )
+
+        inputs = [0.0, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+        frame_num = 0
+        for i in inputs:
+            frame_num += 1
+
+            mappings[0].get_value.return_value = i
+            mappings[1].get_value.return_value = 0.0
+            self.controller_1.update()
+
+            self.assertEqual(
+                stick.get_direction(), (i, 0.0)
+            )
+
+            self.assertEqual(
+                stick.x_axis, i
+            )
+
+            self.assertEqual(
+                stick.y_axis, 0.0
+            )
+
+            self.assertEqual(
+                round(stick.get_magnitude(), 1), i
+            )
+
+            if frame_num in (1, 2):
+                self.assertTrue(
+                    not stick.check()
+                )
+
+            if frame_num > 2:
+                self.assertTrue(
+                    stick.check()
                 )

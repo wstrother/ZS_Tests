@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16a9a5d5-21bd-4dd7-b33b-1f646f065b5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_controller.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_input_devices.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/do_tests.py" afterPath="$PROJECT_DIR$/do_tests.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller.py" afterPath="$PROJECT_DIR$/test_controller.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +22,10 @@
     <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_test_input.coverage" NAME="Unittests in test_input Coverage Results" MODIFIED="1506437607563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_test_events__1_.coverage" NAME="Unittests in test_events (1) Coverage Results" MODIFIED="1506353448166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zs_tests$Unittest_TestController_test_button.coverage" NAME="Unittest TestController.test_button Coverage Results" MODIFIED="1506979100154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_TestController.coverage" NAME="Unittests in TestController Coverage Results" MODIFIED="1506974989091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/zs_tests$do_tests.coverage" NAME="do_tests Coverage Results" MODIFIED="1506972735211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zs_tests$Unittest_TestController_test_trigger.coverage" NAME="Unittest TestController.test_trigger Coverage Results" MODIFIED="1507066283573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_TestController.coverage" NAME="Unittests in TestController Coverage Results" MODIFIED="1507066433190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zs_tests$do_tests.coverage" NAME="do_tests Coverage Results" MODIFIED="1507066520035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zs_tests$Unittest_TestController_test_thumb_stick.coverage" NAME="Unittest TestController.test_thumb_stick Coverage Results" MODIFIED="1507066150074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -123,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="do_tests.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="do_tests.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/do_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="600">
+              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -166,19 +168,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_controller.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_controller.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state relative-caret-position="125">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
                 <element signature="e#249#529#0" expanded="false" />
                 <element signature="e#577#978#0" expanded="false" />
                 <element signature="e#1019#1281#0" expanded="false" />
                 <element signature="e#1318#1657#0" expanded="false" />
-                <element signature="e#1694#2831#0" expanded="false" />
-                <element signature="e#2866#3856#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -207,12 +207,12 @@
         <option value="$PROJECT_DIR$/test_cfg.py" />
         <option value="$PROJECT_DIR$/test_events.py" />
         <option value="$PROJECT_DIR$/test_context.py" />
-        <option value="$PROJECT_DIR$/do_tests.py" />
         <option value="$PROJECT_DIR$/test_input.py" />
         <option value="$PROJECT_DIR$/../zs_beta/src/input_manager.py" />
-        <option value="$PROJECT_DIR$/../zs_beta/src/controller.py" />
         <option value="$PROJECT_DIR$/test_input_devices.py" />
         <option value="$PROJECT_DIR$/test_controller.py" />
+        <option value="$PROJECT_DIR$/../zs_beta/src/controller.py" />
+        <option value="$PROJECT_DIR$/do_tests.py" />
       </list>
     </option>
   </component>
@@ -225,8 +225,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1932" />
-    <option name="height" value="1092" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -251,48 +251,7 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest TestController.test_dpad">
-    <configuration default="false" name="do_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zs_tests" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/do_tests.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in test_input" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zs_tests" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_input.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.do_tests">
     <configuration default="false" name="Unittests in TestController" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -309,29 +268,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestController.test_button" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zs_tests" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_controller.py" />
-      <option name="CLASS_NAME" value="TestController" />
-      <option name="METHOD_NAME" value="test_button" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -360,6 +296,70 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestController.test_trigger" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zs_tests" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_controller.py" />
+      <option name="CLASS_NAME" value="TestController" />
+      <option name="METHOD_NAME" value="test_trigger" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestController.test_thumb_stick" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zs_tests" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_controller.py" />
+      <option name="CLASS_NAME" value="TestController" />
+      <option name="METHOD_NAME" value="test_thumb_stick" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="do_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zs_tests" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/do_tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -577,19 +577,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.do_tests" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_input" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in TestController" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_button" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_dpad" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestController" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_dpad" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_trigger" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_thumb_stick" />
+      <item index="4" class="java.lang.String" itemvalue="Python.do_tests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_dpad" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_button" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in TestController" />
-        <item index="3" class="java.lang.String" itemvalue="Python.do_tests" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_input" />
+        <item index="0" class="java.lang.String" itemvalue="Python.do_tests" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestController" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_trigger" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_thumb_stick" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_dpad" />
       </list>
     </recent_temporary>
   </component>
@@ -610,39 +610,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_TestController_test_button - 2017.10.02 at 17h 16m 12s.xml">
-      <configuration name="Unittest TestController.test_button" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 26m 12s.xml">
+      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_button - 2017.10.02 at 17h 16m 24s.xml">
-      <configuration name="Unittest TestController.test_button" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 26m 24s.xml">
+      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_button - 2017.10.02 at 17h 16m 46s.xml">
-      <configuration name="Unittest TestController.test_button" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 28m 03s.xml">
+      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_button - 2017.10.02 at 17h 17m 24s.xml">
-      <configuration name="Unittest TestController.test_button" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 28m 23s.xml">
+      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_button - 2017.10.02 at 17h 17m 45s.xml">
-      <configuration name="Unittest TestController.test_button" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 28m 35s.xml">
+      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_button - 2017.10.02 at 17h 18m 06s.xml">
-      <configuration name="Unittest TestController.test_button" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 28m 55s.xml">
+      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_button - 2017.10.02 at 17h 18m 13s.xml">
-      <configuration name="Unittest TestController.test_button" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 29m 10s.xml">
+      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_button - 2017.10.02 at 17h 18m 20s.xml">
-      <configuration name="Unittest TestController.test_button" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_trigger - 2017.10.03 at 17h 31m 23s.xml">
+      <configuration name="Unittest TestController.test_trigger" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_dpad - 2017.10.02 at 17h 26m 36s.xml">
-      <configuration name="Unittest TestController.test_dpad" configurationId="tests" />
+    <history-entry file="Unittests_in_TestController - 2017.10.03 at 17h 31m 55s.xml">
+      <configuration name="Unittests in TestController" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_dpad - 2017.10.02 at 17h 27m 26s.xml">
-      <configuration name="Unittest TestController.test_dpad" configurationId="tests" />
+    <history-entry file="Unittests_in_TestController - 2017.10.03 at 17h 33m 53s.xml">
+      <configuration name="Unittests in TestController" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1932" height="1092" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0734375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -651,11 +651,11 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.3051852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="354" y="110" width="1280" height="341" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.3051852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" x="218" y="582" width="1280" height="341" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.39851853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="458" y="159" width="1360" height="330" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.39851853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="250" y="591" width="1360" height="330" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -710,7 +710,7 @@
           <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="40" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="tests">
@@ -1374,16 +1374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/do_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_input.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1417,32 +1407,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="11" column="0" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zs_beta/src/controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="278" column="0" lean-forward="false" selection-start-line="278" selection-start-column="0" selection-end-line="278" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state relative-caret-position="125">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
             <element signature="e#249#529#0" expanded="false" />
             <element signature="e#577#978#0" expanded="false" />
             <element signature="e#1019#1281#0" expanded="false" />
             <element signature="e#1318#1657#0" expanded="false" />
-            <element signature="e#1694#2831#0" expanded="false" />
-            <element signature="e#2866#3856#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zs_beta/src/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/do_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
