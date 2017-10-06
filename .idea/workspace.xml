@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16a9a5d5-21bd-4dd7-b33b-1f646f065b5f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_command_inputs.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/do_tests.py" afterPath="$PROJECT_DIR$/do_tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller.py" afterPath="$PROJECT_DIR$/test_controller.py" />
@@ -15,22 +16,35 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_test_entities.coverage" NAME="Unittests in test_entities Coverage Results" MODIFIED="1506353455166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/zs_tests$Unittest_TestController_test_dpad.coverage" NAME="Unittest TestController.test_dpad Coverage Results" MODIFIED="1506979646197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_test_event.coverage" NAME="Unittests in test_event Coverage Results" MODIFIED="1506284073849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zs_tests$Unittest_TestController_test_controller_io.coverage" NAME="Unittest TestController.test_controller_io Coverage Results" MODIFIED="1507322122559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_test_context.coverage" NAME="Unittests in test_context Coverage Results" MODIFIED="1506353458786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_test_cfg.coverage" NAME="Unittests in test_cfg Coverage Results" MODIFIED="1506353451693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_test_input.coverage" NAME="Unittests in test_input Coverage Results" MODIFIED="1506437607563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_test_events__1_.coverage" NAME="Unittests in test_events (1) Coverage Results" MODIFIED="1506353448166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zs_tests$Unittest_TestController_test_button.coverage" NAME="Unittest TestController.test_button Coverage Results" MODIFIED="1506979100154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_TestInput.coverage" NAME="Unittests in TestInput Coverage Results" MODIFIED="1507322033521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zs_tests$do_tests.coverage" NAME="do_tests Coverage Results" MODIFIED="1507233745871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zs_tests$Unittest_TestController_test_dpad.coverage" NAME="Unittest TestController.test_dpad Coverage Results" MODIFIED="1506979646197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_test_event.coverage" NAME="Unittests in test_event Coverage Results" MODIFIED="1506284073849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_test_cfg.coverage" NAME="Unittests in test_cfg Coverage Results" MODIFIED="1506353451693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zs_tests$Unittest_TestController_test_trigger.coverage" NAME="Unittest TestController.test_trigger Coverage Results" MODIFIED="1507066283573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zs_tests$Unittests_in_TestController.coverage" NAME="Unittests in TestController Coverage Results" MODIFIED="1507066433190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/zs_tests$do_tests.coverage" NAME="do_tests Coverage Results" MODIFIED="1507066520035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/zs_tests$Unittest_TestController_test_thumb_stick.coverage" NAME="Unittest TestController.test_thumb_stick Coverage Results" MODIFIED="1507066150074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="zs_tests" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="test_events.py" pinned="false" current-in-tab="false">
@@ -125,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="do_tests.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="do_tests.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/do_tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
+            <state relative-caret-position="200">
+              <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
@@ -140,25 +154,12 @@
       <file leaf-file-name="test_input.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_input.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state relative-caret-position="400">
+              <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="55" />
               <folding>
-                <element signature="e#132#5054#0" expanded="false" />
                 <element signature="e#157#981#0" expanded="false" />
                 <element signature="e#382#981#0" expanded="false" />
                 <element signature="e#933#981#0" expanded="false" />
-                <element signature="e#1055#1193#0" expanded="false" />
-                <element signature="e#1278#2205#0" expanded="false" />
-                <element signature="e#1338#2205#0" expanded="false" />
-                <element signature="e#1423#1541#0" expanded="false" />
-                <element signature="e#1585#1658#0" expanded="false" />
-                <element signature="e#1798#2205#0" expanded="false" />
-                <element signature="e#2270#3013#0" expanded="false" />
-                <element signature="e#2330#3013#0" expanded="false" />
-                <element signature="e#2415#2533#0" expanded="false" />
-                <element signature="e#2577#2650#0" expanded="false" />
-                <element signature="e#2737#3013#0" expanded="false" />
-                <element signature="e#3065#3401#0" expanded="false" />
                 <element signature="e#3450#3699#0" expanded="false" />
                 <element signature="e#3749#4156#0" expanded="false" />
                 <element signature="e#4205#4595#0" expanded="false" />
@@ -168,17 +169,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_controller.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="test_controller.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+            <state relative-caret-position="350">
+              <caret line="254" column="55" lean-forward="false" selection-start-line="254" selection-start-column="55" selection-end-line="254" selection-end-column="55" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
-                <element signature="e#249#529#0" expanded="false" />
-                <element signature="e#577#978#0" expanded="false" />
-                <element signature="e#1019#1281#0" expanded="false" />
-                <element signature="e#1318#1657#0" expanded="false" />
+                <element signature="e#292#572#0" expanded="false" />
+                <element signature="e#620#1021#0" expanded="false" />
+                <element signature="e#1062#1324#0" expanded="false" />
+                <element signature="e#1361#1700#0" expanded="false" />
+                <element signature="e#1737#2855#0" expanded="false" />
+                <element signature="e#2150#2855#0" expanded="false" />
+                <element signature="e#2364#2437#0" expanded="false" />
+                <element signature="e#2528#2596#0" expanded="false" />
+                <element signature="e#2656#2728#0" expanded="false" />
+                <element signature="e#2778#2855#0" expanded="false" />
+                <element signature="e#2893#3722#0" expanded="false" />
+                <element signature="e#3290#3722#0" expanded="false" />
+                <element signature="e#3530#3604#0" expanded="false" />
+                <element signature="e#3654#3722#0" expanded="false" />
+                <element signature="e#3757#4728#0" expanded="false" />
+                <element signature="e#3806#3977#0" expanded="false" />
+                <element signature="e#4162#4728#0" expanded="false" />
+                <element signature="e#4411#4475#0" expanded="false" />
+                <element signature="e#4524#4609#0" expanded="false" />
+                <element signature="e#4644#4728#0" expanded="false" />
+                <element signature="e#4770#5975#0" expanded="false" />
+                <element signature="e#4858#4945#0" expanded="false" />
+                <element signature="e#5230#5975#0" expanded="false" />
+                <element signature="e#5787#5859#0" expanded="false" />
+                <element signature="e#5907#5975#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -192,6 +214,11 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>patch</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -210,9 +237,10 @@
         <option value="$PROJECT_DIR$/test_input.py" />
         <option value="$PROJECT_DIR$/../zs_beta/src/input_manager.py" />
         <option value="$PROJECT_DIR$/test_input_devices.py" />
-        <option value="$PROJECT_DIR$/test_controller.py" />
         <option value="$PROJECT_DIR$/../zs_beta/src/controller.py" />
         <option value="$PROJECT_DIR$/do_tests.py" />
+        <option value="$PROJECT_DIR$/test_command_inputs.py" />
+        <option value="$PROJECT_DIR$/test_controller.py" />
       </list>
     </option>
   </component>
@@ -250,8 +278,9 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Python.do_tests">
+  <component name="RunManager" selected="Python tests.Unittest TestController.test_controller_io">
     <configuration default="false" name="Unittests in TestController" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,29 +297,6 @@
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest TestController.test_dpad" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zs_tests" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_controller.py" />
-      <option name="CLASS_NAME" value="TestController" />
-      <option name="METHOD_NAME" value="test_dpad" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -321,29 +327,6 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest TestController.test_thumb_stick" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="zs_tests" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_controller.py" />
-      <option name="CLASS_NAME" value="TestController" />
-      <option name="METHOD_NAME" value="test_thumb_stick" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="do_tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -360,6 +343,52 @@
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/do_tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestController.test_controller_io" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zs_tests" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_controller.py" />
+      <option name="CLASS_NAME" value="TestController" />
+      <option name="METHOD_NAME" value="test_controller_io" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in TestInput" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="zs_tests" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_input.py" />
+      <option name="CLASS_NAME" value="TestInput" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -578,18 +607,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestController" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_dpad" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_trigger" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_thumb_stick" />
-      <item index="4" class="java.lang.String" itemvalue="Python.do_tests" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_trigger" />
+      <item index="2" class="java.lang.String" itemvalue="Python.do_tests" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_controller_io" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in TestInput" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.do_tests" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestController" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_trigger" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_thumb_stick" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_dpad" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_controller_io" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestInput" />
+        <item index="2" class="java.lang.String" itemvalue="Python.do_tests" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in TestController" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestController.test_trigger" />
       </list>
     </recent_temporary>
   </component>
@@ -610,20 +639,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 26m 12s.xml">
-      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_controller_io - 2017.10.06 at 16h 30m 17s.xml">
+      <configuration name="Unittest TestController.test_controller_io" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 26m 24s.xml">
-      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_controller_io - 2017.10.06 at 16h 33m 16s.xml">
+      <configuration name="Unittest TestController.test_controller_io" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 28m 03s.xml">
-      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_controller_io - 2017.10.06 at 16h 34m 43s.xml">
+      <configuration name="Unittest TestController.test_controller_io" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 28m 23s.xml">
-      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 28m 35s.xml">
-      <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
+    <history-entry file="Unittest_TestController_test_controller_io - 2017.10.06 at 16h 35m 24s.xml">
+      <configuration name="Unittest TestController.test_controller_io" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittest_TestController_test_thumb_stick - 2017.10.03 at 17h 28m 55s.xml">
       <configuration name="Unittest TestController.test_thumb_stick" configurationId="tests" />
@@ -640,6 +666,18 @@
     <history-entry file="Unittests_in_TestController - 2017.10.03 at 17h 33m 53s.xml">
       <configuration name="Unittests in TestController" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_TestInput - 2017.10.06 at 16h 33m 55s.xml">
+      <configuration name="Unittests in TestInput" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -720,30 +758,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_context.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#110#646#0" expanded="false" />
-            <element signature="e#128#337#0" expanded="false" />
-            <element signature="e#153#331#0" expanded="false" />
-            <element signature="e#353#387#0" expanded="false" />
-            <element signature="e#403#513#0" expanded="false" />
-            <element signature="e#429#507#0" expanded="false" />
-            <element signature="e#527#644#0" expanded="false" />
-            <element signature="e#550#638#0" expanded="false" />
-            <element signature="e#682#3078#0" expanded="false" />
-            <element signature="e#707#976#0" expanded="false" />
-            <element signature="e#829#976#0" expanded="false" />
-            <element signature="e#1012#1669#0" expanded="false" />
-            <element signature="e#1071#1669#0" expanded="false" />
-            <element signature="e#1706#2163#0" expanded="false" />
-            <element signature="e#2202#3078#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/do_tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -759,22 +773,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#132#5054#0" expanded="false" />
             <element signature="e#157#981#0" expanded="false" />
             <element signature="e#382#981#0" expanded="false" />
             <element signature="e#933#981#0" expanded="false" />
-            <element signature="e#1055#1193#0" expanded="false" />
-            <element signature="e#1278#2205#0" expanded="false" />
-            <element signature="e#1338#2205#0" expanded="false" />
-            <element signature="e#1423#1541#0" expanded="false" />
-            <element signature="e#1585#1658#0" expanded="false" />
-            <element signature="e#1798#2205#0" expanded="false" />
-            <element signature="e#2270#3013#0" expanded="false" />
-            <element signature="e#2330#3013#0" expanded="false" />
-            <element signature="e#2415#2533#0" expanded="false" />
-            <element signature="e#2577#2650#0" expanded="false" />
-            <element signature="e#2737#3013#0" expanded="false" />
-            <element signature="e#3065#3401#0" expanded="false" />
             <element signature="e#3450#3699#0" expanded="false" />
             <element signature="e#3749#4156#0" expanded="false" />
             <element signature="e#4205#4595#0" expanded="false" />
@@ -882,22 +883,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#132#5054#0" expanded="false" />
             <element signature="e#157#981#0" expanded="false" />
             <element signature="e#382#981#0" expanded="false" />
             <element signature="e#933#981#0" expanded="false" />
-            <element signature="e#1055#1193#0" expanded="false" />
-            <element signature="e#1278#2205#0" expanded="false" />
-            <element signature="e#1338#2205#0" expanded="false" />
-            <element signature="e#1423#1541#0" expanded="false" />
-            <element signature="e#1585#1658#0" expanded="false" />
-            <element signature="e#1798#2205#0" expanded="false" />
-            <element signature="e#2270#3013#0" expanded="false" />
-            <element signature="e#2330#3013#0" expanded="false" />
-            <element signature="e#2415#2533#0" expanded="false" />
-            <element signature="e#2577#2650#0" expanded="false" />
-            <element signature="e#2737#3013#0" expanded="false" />
-            <element signature="e#3065#3401#0" expanded="false" />
             <element signature="e#3450#3699#0" expanded="false" />
             <element signature="e#3749#4156#0" expanded="false" />
             <element signature="e#4205#4595#0" expanded="false" />
@@ -1374,27 +1362,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_input_devices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../zs_beta/src/controller.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/do_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_command_inputs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="56" lean-forward="false" selection-start-line="1" selection-start-column="56" selection-end-line="1" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_input.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state relative-caret-position="400">
+          <caret line="40" column="55" lean-forward="true" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="55" />
           <folding>
-            <element signature="e#132#5054#0" expanded="false" />
             <element signature="e#157#981#0" expanded="false" />
             <element signature="e#382#981#0" expanded="false" />
             <element signature="e#933#981#0" expanded="false" />
-            <element signature="e#1055#1193#0" expanded="false" />
-            <element signature="e#1278#2205#0" expanded="false" />
-            <element signature="e#1338#2205#0" expanded="false" />
-            <element signature="e#1423#1541#0" expanded="false" />
-            <element signature="e#1585#1658#0" expanded="false" />
-            <element signature="e#1798#2205#0" expanded="false" />
-            <element signature="e#2270#3013#0" expanded="false" />
-            <element signature="e#2330#3013#0" expanded="false" />
-            <element signature="e#2415#2533#0" expanded="false" />
-            <element signature="e#2577#2650#0" expanded="false" />
-            <element signature="e#2737#3013#0" expanded="false" />
-            <element signature="e#3065#3401#0" expanded="false" />
             <element signature="e#3450#3699#0" expanded="false" />
             <element signature="e#3749#4156#0" expanded="false" />
             <element signature="e#4205#4595#0" expanded="false" />
@@ -1403,41 +1409,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_input_devices.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="350">
+          <caret line="254" column="55" lean-forward="false" selection-start-line="254" selection-start-column="55" selection-end-line="254" selection-end-column="55" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
-            <element signature="e#249#529#0" expanded="false" />
-            <element signature="e#577#978#0" expanded="false" />
-            <element signature="e#1019#1281#0" expanded="false" />
-            <element signature="e#1318#1657#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../zs_beta/src/controller.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1794">
-          <caret line="229" column="0" lean-forward="true" selection-start-line="229" selection-start-column="0" selection-end-line="229" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/do_tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="24" column="27" lean-forward="false" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#292#572#0" expanded="false" />
+            <element signature="e#620#1021#0" expanded="false" />
+            <element signature="e#1062#1324#0" expanded="false" />
+            <element signature="e#1361#1700#0" expanded="false" />
+            <element signature="e#1737#2855#0" expanded="false" />
+            <element signature="e#2150#2855#0" expanded="false" />
+            <element signature="e#2364#2437#0" expanded="false" />
+            <element signature="e#2528#2596#0" expanded="false" />
+            <element signature="e#2656#2728#0" expanded="false" />
+            <element signature="e#2778#2855#0" expanded="false" />
+            <element signature="e#2893#3722#0" expanded="false" />
+            <element signature="e#3290#3722#0" expanded="false" />
+            <element signature="e#3530#3604#0" expanded="false" />
+            <element signature="e#3654#3722#0" expanded="false" />
+            <element signature="e#3757#4728#0" expanded="false" />
+            <element signature="e#3806#3977#0" expanded="false" />
+            <element signature="e#4162#4728#0" expanded="false" />
+            <element signature="e#4411#4475#0" expanded="false" />
+            <element signature="e#4524#4609#0" expanded="false" />
+            <element signature="e#4644#4728#0" expanded="false" />
+            <element signature="e#4770#5975#0" expanded="false" />
+            <element signature="e#4858#4945#0" expanded="false" />
+            <element signature="e#5230#5975#0" expanded="false" />
+            <element signature="e#5787#5859#0" expanded="false" />
+            <element signature="e#5907#5975#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -21,5 +21,6 @@ def make_suite():
     return suite
 
 if __name__ == "__main__":
-    runner = TextTestRunner()
+    runner = TextTestRunner(verbosity=3)
     runner.run(make_suite())
+
