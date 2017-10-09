@@ -253,39 +253,45 @@ class TestController(TestCase):
             "ThumbStick": stick
         }
         with patch('src.input_manager.pygame') as mock:
-            mock.joystick.Joystick.return_value = Mock(name="Test Device")
-            mock.joystick.get_count.return_value = 1
-            device = mock.Joystick.return_value
-            device.name = "Test Device"
-
-            c = cont_io.ControllerIO.make_controller(
-                "Test Controller", devices
+            mock.K_UP, mock.K_DOWN, mock.K_RIGHT, mock.K_LEFT, mock.K_a = (
+                1, 2, 3, 4, 5
             )
 
-            self.assertEqual(
-                type(c.devices["Dpad"]), cont.Dpad
-            )
-            self.assertEqual(
-                type(c.mappings["Dpad"][0]), cont_io.ButtonMappingKey
-            )
+            with patch('src.input_manager.InputManager') as mock_im:
+                mock_im.INPUT_DEVICES = [Mock(name="Input Device")]
+                mock_joy = mock_im.INPUT_DEVICES[0]
+                mock_joy.get_name.return_value = "Test Device"
 
-            self.assertEqual(
-                type(c.devices["Button"]), cont.Button
-            )
-            self.assertEqual(
-                type(c.mappings["Button"]), cont_io.ButtonMappingKey
-            )
+                c = cont_io.ControllerIO.make_controller(
+                    "Test Controller", devices
+                )
 
-            self.assertEqual(
-                type(c.devices["Trigger"]), cont.Trigger
-            )
-            self.assertEqual(
-                type(c.mappings["Trigger"]), cont_io.AxisMapping
-            )
+                self.assertEqual(
+                    type(c.get_device("Dpad")), cont.Dpad
+                )
+                self.assertEqual(
+                    type(c.mappings["Dpad"][0]),
+                    cont_io.ButtonMappingKey
+                )
 
-            self.assertEqual(
-                type(c.devices["ThumbStick"]), cont.ThumbStick
-            )
-            self.assertEqual(
-                type(c.mappings["Thumbstick"][0]), cont_io.AxisMapping
-            )
+                self.assertEqual(
+                    type(c.get_device("Button")), cont.Button
+                )
+                self.assertEqual(
+                    type(c.mappings["Button"]),
+                    cont_io.ButtonMappingKey
+                )
+
+                self.assertEqual(
+                    type(c.get_device("Trigger")), cont.Trigger
+                )
+                self.assertEqual(
+                    type(c.mappings["Trigger"]), cont_io.AxisMapping
+                )
+
+                self.assertEqual(
+                    type(c.get_device("ThumbStick")), cont.ThumbStick
+                )
+                self.assertEqual(
+                    type(c.mappings["ThumbStick"][0]), cont_io.AxisMapping
+                )
